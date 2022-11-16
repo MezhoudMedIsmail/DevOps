@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Git')  {
             steps {
-                echo 'Getting Backend project from Git';
+                echo 'Getting Backend project from Git' ;
                  git branch:'Abdelhamid',
                  url: 'https://github.com/hazemAm28/TpAchat.git'
            }
